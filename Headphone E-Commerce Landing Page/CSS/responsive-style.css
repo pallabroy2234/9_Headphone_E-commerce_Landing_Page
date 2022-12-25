@@ -1,0 +1,169 @@
+@media (max-width: 1024px) {
+  /* ! Custom CSS ================= */
+  h1 {
+    font-size: 3.25rem;
+  }
+  h2 {
+    font-size: 1.375rem;
+    line-height: 1.8rem;
+  }
+  .wrapper {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  /* ! Features Section Design ========== */
+  .features {
+    padding-top: 7rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* ! Custom CSS ================ */
+  .choose .card a h4 {
+    font-size: 0.9375rem;
+    margin-bottom: 0.625rem;
+  }
+  p {
+    font-size: 0.8125rem;
+    line-height: 1.3125rem;
+  }
+  .text-content {
+    width: 100%;
+  }
+  /* ! Top Banner Section Design ================ */
+  .hero-slider {
+    padding: 4.375rem 0 0.375rem;
+  }
+  .navigation-wrapper .navbar-brand img {
+    height: 2.8125rem;
+  }
+  .navbar-toggler {
+    color: var(--text-color);
+  }
+  .navbar-toggler i {
+    color: var(--text-color);
+    line-height: 2;
+  }
+  .navigation-wrapper {
+    background-color: var(--black-color);
+    text-align: center;
+  }
+  .hero-slider .carousel-caption {
+    transform: translate(-65%, -50%);
+  }
+  /* ! Features Section Design ================== */
+  .features .card .icon {
+    margin-bottom: 20px;
+  }
+  /* ! Contact us Section Design ============== */
+  /* form input[type="email"],
+  form input[type="text"],
+  .subscribe {
+    padding: 0 0.625rem;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-right: 0;
+  }
+  .subscribe {
+    font-size: 0.875rem;
+  }
+  form .form-group,
+  form input[type="text"] {
+    margin: 0 0 1rem;
+    width: 100%;
+  }
+  form .form-group {
+    white-space: nowrap;
+  }
+  form input[type="email"] {
+    width: 50%;
+    padding-left: 1rem;
+  }
+  .subscribe {
+    margin: right;
+  } */
+}
+
+@media (max-width: 767px) {
+  /* ! Custom Css ============== */
+  .main-btn {
+    margin: auto;
+  }
+  .text-sec {
+    text-align: center;
+    padding-top: 2.875rem;
+  }
+  h2::before {
+    left: 45%;
+  }
+
+  /* ! Top Banner Section Design ============= */
+  .hero-slider .carousel-caption {
+    transform: translate(-45%, -70%);
+  }
+  .hero-slider .carousel-caption h2::before {
+    left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  /* ! Top Banner Sectio Design ============ */
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.675rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1rem;
+    margin-bottom: 5px;
+  }
+  /* ! About Section Design =================== */
+  .about-slider,
+  .feature-img-box,
+  .style-img {
+    width: 50%;
+    margin: auto;
+  }
+  .about-section .carousel-inner {
+    border-radius: 0 0 1.875rem;
+  }
+  /* ! Contact Us Section Design  ================ */
+  .contact-form {
+    border: none;
+  }
+}
+
+@media (max-width: 430px) {
+  /* ! Custom CSS ============= */
+  h2::before {
+    top: -0.8rem;
+  }
+  h4 {
+    font-size: 0.975rem;
+  }
+  /* ! Top Banner Section Design ============== */
+  .hero-slider .carousel-caption p {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+}
+
+@media (max-width: 330px) {
+  /* ! Custom CSS ================= */
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 0.875rem;
+  }
+  h4 {
+    font-size: 0.75rem;
+  }
+  /* ! Top Banner Section Design ============ */
+  .hero-slider .carousel-caption p {
+    display: none;
+  }
+  .hero-slider .carousel-caption {
+    transform: translate(-40%, -50%);
+  }
+}
